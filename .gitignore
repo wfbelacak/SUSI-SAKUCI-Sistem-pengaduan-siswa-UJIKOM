@@ -1,0 +1,16 @@
+# Ignore backend (Laravel)
+/backend/vendor/
+/backend/.env
+/backend/storage/*.key
+/backend/public/storage
+/backend/bootstrap/cache/*
+
+# Ignore frontend (React)
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env.local
+/frontend/.env.development.local
+
+# General
+.DS_Store
+node_modules/
