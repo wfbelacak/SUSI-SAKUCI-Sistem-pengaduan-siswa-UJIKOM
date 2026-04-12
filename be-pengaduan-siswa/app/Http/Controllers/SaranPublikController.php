@@ -48,7 +48,7 @@ class SaranPublikController extends Controller
             'email' => 'nullable|email|max:100',
             'no_telepon' => 'nullable|string|max:20',
             'kategori_pengirim' => 'required|in:Alumni,Orang Tua,Masyarakat Umum,Lainnya',
-            'id_kategori' => 'nullable|exists:kategoris,id_kategori',
+            'id_kategori' => 'nullable|exists:kategori,id_kategori',
             'isi_saran' => 'required|string|min:10|max:2000',
         ], [
             'nama_pengirim.required' => 'Nama wajib diisi',
